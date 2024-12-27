@@ -1,0 +1,61 @@
+.container-about{
+    background:linear-gradient(rgba(245, 245, 245, 0.89), rgba(235, 234, 234, 0.897)),url(/src/assets/barber-shop-tools-arrangement.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding: 1.4rem  40px;
+}
+
+.img-about{
+    display: flex;
+}
+
+
+
+.about{
+    display: flex;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.text-about {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 1.5rem;
+    align-items: start;
+    text-align: start;
+    margin: 5rem;
+    gap: 10px   ;
+}
+
+.text-about h1 {
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(150, 149, 149, 0.877);
+    font-weight: 500;
+}
+
+.text-about p{
+    font-weight: 350;
+    border-bottom: 1px solid rgb(141, 138, 138);
+    line-height: 1.6;
+    color: rgb(27, 27, 27);
+}
+
+
+@media(max-width:1028px){
+    .text-about {
+        width: auto;
+    }
+    .img-about img{
+        width: auto;
+    }
+}
